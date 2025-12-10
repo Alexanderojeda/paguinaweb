@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #f3e8ff, #e7f0ff);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #4b0082, #8e24aa, #ba68c8);
+    color: white;
+    padding: 45px 20px;
+    text-align: center;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.3);
+}
+
+.header-img {
+    width: 220px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.45);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 5px 0;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+/* HERO */
+.hero {
+    margin: 35px auto;
+    width: 90%;
+    background: linear-gradient(145deg, #ffffff, #f3e5f5);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.hero h1 {
+    color: #6a1b9a;
+    font-size: 34px;
+}
+
+/* INFO */
+.info {
+    width: 90%;
+    margin: 25px auto;
+    background: linear-gradient(90deg, #fce4ec, #f8bbd0);
+    border-left: 12px solid #ec407a;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.18);
+}
+
+.info h2 {
+    color: #ad1457;
+    font-size: 30px;
+}
+
+.info p {
+    font-size: 19px;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* MÓDULOS */
+.modules {
+    width: 90%;
+    margin: 45px auto;
+    padding: 40px;
+    background: linear-gradient(180deg, #ffffff, #f3e8ff);
+    border-radius: 22px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.modules h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #6a1b9a;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+}
+
+.module-box {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #ab47bc;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    transition: .3s;
+}
+
+.module-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.25);
+}
+
+.module-box h3 {
+    color: #6a1b9a;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.module-box p {
+    font-size: 17px;
+    color: #444;
+}
+
+/* REDES */
+.section-title {
+    text-align: center;
+    color: #6a1b9a;
+    font-size: 34px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.feeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 20px;
+}
+
+.feed-box {
+    width: 380px;
+    background: linear-gradient(180deg, #ffffff, #ede7f6);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.feed-logo {
+    width: 65px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #4a148c, #6a1b9a, #8e24aa);
+    color: white;
+    padding: 55px;
+    text-align: center;
+    margin-top: 55px;
+    box-shadow: 0 -4px 18px rgba(0,0,0,0.25);
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #7b1fa2, #ba68c8);
+    padding: 14px 22px;
+    margin: 12px;
+    border-radius: 14px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-buttons a:hover {
+    background: linear-gradient(45deg, #6a1b9a, #ab47bc);
+    transform: scale(1.1);
+}
+
